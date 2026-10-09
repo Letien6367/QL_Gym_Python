@@ -1,0 +1,15 @@
+Tài khoản Quản trị viên (Toàn quyền):
+
+Tên đăng nhập: admin
+Mật khẩu: 123456
+Quyền hạn: Xem và thao tác toàn bộ các phân hệ (Dashboard biểu đồ, Hội viên, Huấn luyện viên, Gói tập, Đăng ký, Thanh toán, Lịch tập, Quản lý người dùng).
+Tài khoản Nhân viên (Phân quyền bị giới hạn):
+
+Tên đăng nhập: nhanvien1
+Mật khẩu: 123456
+Quyền hạn: Ẩn mục Quản lý người dùng; ở mục Gói tập và Huấn luyện viên chuyển sang chế độ chỉ xem (Readonly); vẫn có đầy đủ quyền thao tác Hội viên, Đăng ký, Thanh toán và Xếp lịch tập.
+Tài khoản Đã khóa:
+
+Tên đăng nhập: nhanvien2
+Mật khẩu: 123456
+Kết quả: Hệ thống chặn đăng nhập và hiển thị thông báo tài khoản đã bị khóa.
