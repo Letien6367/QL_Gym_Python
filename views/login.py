@@ -135,16 +135,6 @@ class LoginView(tk.Frame):
         )
         btn_login.pack(fill="x", pady=(4, 12))
 
-        # Ghi chú tài khoản mặc định
-        tip_frame = tk.Frame(card, bg="#F7FAFC", padx=10, pady=8)
-        tip_frame.pack(fill="x")
-        tk.Label(
-            tip_frame,
-            text="Tài khoản mẫu: admin / 123456 hoặc nhanvien1 / 123456",
-            font=(FONT_BODY[0], 8),
-            fg=COLOR_TEXT_MUTED,
-            bg="#F7FAFC"
-        ).pack()
 
     def toggle_password_visibility(self):
         """Bật/tắt ẩn hiện mật khẩu."""
